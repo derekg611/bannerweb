@@ -1,0 +1,182 @@
+/* General Outline*/
+
+body {
+  background-color: #90d4ff;
+}
+
+#breadcrumbs {
+  box-shadow: 0px 5px 20px 0px rgb(0, 0, 80);
+  border-bottom: 5px rgb(0, 5, 73) solid;
+  background-color: white;
+}
+
+#breadcrumbs a {
+  font-family: Georgia;
+  font-size: 16pt;
+}
+
+#main {
+  color: rgb(0, 0, 0);
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  /* border: 1px black solid; */
+}
+
+#misc-text {
+  text-align: center;
+  font-family: georgia;
+  font-size: 16pt;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+#child {
+  width: max-content;
+  height: max-content;
+  /* border: 2px black solid; */
+}
+
+/*middle buttons*/
+#menu {
+  background-color: rgb(0, 168, 229);
+  padding-right: 20px;
+}
+#buttons {
+  box-shadow: 0px 5px 6px 0px rgb(0, 0, 80);
+  background-color: rgb(13, 0, 134);
+  font-family: Georgia;
+  font-size: 16pt;
+  width: 100%;
+  height: 30px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 10px;
+  /* border: 2px black solid; */
+}
+
+#right {
+  float: right;
+}
+
+#buttons a {
+  padding-left: 10px;
+
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* #announcements {
+    width: 33%;
+    height: 500px;
+    border: 2px black solid;
+  }
+  */
+
+#image {
+  width: 100%;
+  height: 400px;
+  border: #ff139d;
+  padding: 30px;
+  padding-top: 75px;
+  display: block;
+}
+
+#an-box {
+  margin-left: 50px;
+  border-radius: 25px;
+  background: #949494;
+  padding: 25px;
+  width: 200px;
+  height: 450px;
+}
+
+#an-box b {
+  text-decoration: underline;
+}
+
+/*Drop down styling*/
+/* Navbar container */
+#navbar {
+  height: 50px;
+  border: 2px black solid;
+  overflow: hidden;
+  background-color: #080076;
+  font-family: Georgia;
+  font-size: 13pt;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 15pt;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add blue background color to navbar links on hover */
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(0, 122, 188);
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #90d4ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Blue Background on Hover*/
+.dropdown-content a:hover {
+  background-color: #90aaff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#banner {
+  width: 100%;
+}
+
+#logo {
+  width: 280px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
